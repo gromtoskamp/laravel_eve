@@ -1,0 +1,66 @@
+.section-sidebar {
+    background-color: red;
+    float: left;
+    width: 25%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.section-sidebar-top {
+    position: fixed;
+    height  :150px;
+    background-color: #f5f5f5;
+    width: inherit;
+    z-index: 10;
+}
+
+.portrait {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-65%);
+}
+
+.portrait img {
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+}
+
+.name-wrapper {
+    height: 30px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(75, 87, 228);
+    cursor: pointer;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    color: floralwhite;
+}
+
+.section-sidebar-middle {
+    padding-top: 150px;
+}
+
+.sidebar-link {
+    height: 50px;
+    border: 1px solid black;
+}
+
+.section-sidebar-bottom {
+    background-color: lightcoral;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: inherit;
+}

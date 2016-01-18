@@ -1,0 +1,52 @@
+
+body,
+html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#a7a09a;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+div {
+    display: block;
+    position: relative;
+}
+
+body
+{
+    border: 1px solid black;
+}
+
+.container {
+    background-color: #add8e6;
+    float: right;
+    width: 75%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.section-topmenu {
+    position: fixed;
+    background-color: rgba(176, 176, 255, 0.64);
+    height: 50px;
+    z-index: 10;
+    width: inherit;
+}
+
+.section-content {
+    margin-top: 50px;
+}
+
+.section-content-main {
+    padding: 25px;
+}
+
+.content-item {
+    background-color: #f5f5f5;
+    width: 150px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+    box-shadow: 5px 5px 20px #888888;
+}
